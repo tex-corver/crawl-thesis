@@ -1,0 +1,18 @@
+{
+    "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+    "name": "crawl-thesis",
+    "description": "Calibrated web-crawling thesis (9 benchmark rounds) packaged as a Claude Code plugin.",
+    "owner": {
+        "name": "tex-corver",
+        "url": "https://github.com/tex-corver"
+    },
+    "plugins": [
+        {
+            "name": "crawl-thesis",
+            "description": "Calibrated, evidence-backed web-crawling methodology — skill + spawnable agent + /crawl command. Free/local clears up to Cloudflare-managed; honest Tier-C recommendation for DataDome / Kasada / Akamai / app-layer. Bundles yfe404's web-scraper skill as the phased-reconnaissance foundation.",
+            "version": "0.1.0",
+            "source": "./",
+            "category": "productivity"
+        }
+    ]
+}

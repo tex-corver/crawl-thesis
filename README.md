@@ -25,9 +25,11 @@ Full reasoning + evidence: [`essay_deep_dive.md`](https://github.com/tex-corver/
 
 ### 1. As a Claude Code plugin (recommended)
 
-```bash
-# From a Claude Code session:
-/plugin install tex-corver/crawl-thesis
+This repo doubles as a single-plugin marketplace, so installation is two slash-commands inside Claude Code:
+
+```
+/plugin marketplace add tex-corver/crawl-thesis
+/plugin install crawl-thesis@crawl-thesis
 ```
 
 The skill + agent + `/crawl` command auto-register. Works across all your projects.
